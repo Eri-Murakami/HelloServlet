@@ -7,7 +7,7 @@
 <title>お問い合わせフォーム</title>
 </head>
 <body>
-<from method="post" action="InquiryServlet">
+<form method="get" action="InquiryServlet">
 名前:<br><input type="text" name="name"><br>
 お問い合わせの種類:<br><select name="qtype">
 <option value="company">会社について</option>
@@ -17,6 +17,6 @@
 <textarea name="body">
 </textarea>
 <br><input type="submit"value="登録" onClick="location.href='InquiryServlet'">
-</from>
+</form>
 </body>
 </html>

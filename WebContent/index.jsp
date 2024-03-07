@@ -13,15 +13,16 @@ pageEncoding="UTF-8" %>
 <input type="button" value="問い合わせ"onClick="location.href='inquiry.jsp'">
 <input type="button" value="MySQLServlet"onClick="location.href='MySQLServlet'">
 GET 通信
-<from merhod="get" action="TestServlet">
-<input type="get" action="username">
+<form method="get" action="TestServlet">
+<input type="get" name="username">
 <input type="text"name="password">
 <input type="submit"value="送信" onClick="location.href='TestServlet'">
-</from>
+</form>
 POST 送信
-<from merhod="post" action="TestServlet">
-<input type="text" action="username">
+<form method="post" action="TestServlet">
+<input type="text" name="username">
 <input type="password"name="password">
 <input type="submit"value="送信" onClick="location.href='TestServlet'">
+</form>
 </body>
 </html>

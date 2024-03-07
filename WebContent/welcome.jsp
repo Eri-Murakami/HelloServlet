@@ -8,10 +8,10 @@
 </head>
 <body>
 名前とパスワードを入力してください。
-<from method="post" action="WelcomeServlet">
+<form method="get" action="WelcomeServlet">
 <input type="text" name="username">
 <input type="password" name="password">
 <input type="submit" value="送信"onClick="location.href='WelcomeServlet'">
-</from>
+</form>
 </body>
 </html>
